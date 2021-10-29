@@ -1,0 +1,1 @@
+export type downloadFileType = 'original' | 'firmado' | 'xml';

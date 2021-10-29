@@ -3,7 +3,23 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  apis: {
+    signAPIInterop: {
+      endPoint: `https://api-firmaelectronica.azurewebsites.net/index.php`,
+      apiPrefix: `api`,
+      apiVersion: `v1`,
+      auth: {
+        user: 'demo',
+        pwd: '10101011'
+      }
+    }
+  },
+  sandbox: {
+    signAPIInterop: {
+      endPoint: `https://api-firmaelectronica.azurewebsites.net/assets/js/sandbox.js`
+    }
+  }
 };
 
 /*
